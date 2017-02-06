@@ -13,7 +13,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     
     var businesses: [Business]!
     var filteredData: [Business]!
-    let searchBar: UISearchBar = UISearchBar()
+    var searchBar: UISearchBar = UISearchBar()
     
     @IBOutlet weak var tableView: UITableView!
     
